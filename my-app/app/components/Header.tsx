@@ -1,6 +1,4 @@
-
-
-"use client"; 
+"use client";
 
 import Link from 'next/link';
 import { useState } from 'react';
@@ -9,6 +7,7 @@ import { useRouter } from 'next/navigation'; // Import useRouter for page naviga
 const Header = () => {
   // State to store the search query
   const [searchQuery, setSearchQuery] = useState('');
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // State for the mobile menu
 
   // Router for navigation
   const router = useRouter();
@@ -47,9 +46,17 @@ const Header = () => {
           <Link href="/" className="hover:text-gray-300">Ahmed.</Link>
         </div>
 
+        {/* Mobile menu button */}
+        <button 
+          className="lg:hidden text-2xl"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          {isMenuOpen ? 'X' : '☰'}
+        </button>
+
         {/* Navigation Links in the Center */}
-        <nav className="flex-grow text-center">
-          <ul className="flex justify-center space-x-8">
+        <nav className={`lg:flex ${isMenuOpen ? 'block' : 'hidden'} lg:space-x-8 space-y-4 lg:space-y-0`}>
+          <ul className="flex flex-col lg:flex-row justify-center space-x-8">
             <li>
               <Link href="/" className="text-lg hover:text-gray-300">Home</Link>
             </li>
