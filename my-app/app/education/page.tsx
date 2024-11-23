@@ -124,7 +124,7 @@ const Education = () => {
     <span className="text-red-900">Institution:</span> ABC Language Institute
     <br />
     <span>
-      <span className="text-red-900">Description:</span> Enhanced proficiency in English&rsquo; focusing on grammar and speaking skills.
+      <span className="text-red-900">Description:</span> Enhanced proficiency in English&#44; focusing on grammar and speaking skills.
     </span>
     <br />
     <span className="text-red-900">Category:</span> Language
@@ -193,7 +193,7 @@ const Education = () => {
     <span className="text-red-900">Platform:</span> Microsoft Center
     <br />
     <span>
-      <span className="text-red-900">Description:</span> Enhanced proficiency in English language skills&rsquo; including grammar&rsquo; vocabulary&rsquo; and communication.
+      <span className="text-red-900">Description:</span> Enhanced proficiency in English language skills&#44; including grammar&#44; vocabulary&#44; and communication.
     </span>
     <br />
     <span>
@@ -211,7 +211,7 @@ const Education = () => {
   <p className="text-gray-800">
     <span className="text-red-900">Platform:</span> SimpliLearn | SkillUp online
     <br />
-    <span className="text-red-900">Description:</span> Gained proficiency in TypeScript&rsquo; learning to write scalable and maintainable code for modern web applications.
+    <span className="text-red-900">Description:</span> Gained proficiency in TypeScript&#44; learning to write scalable and maintainable code for modern web applications.
     <br />
     <span className="text-gray-700"><span>Year:</span>: 2024</span>
   </p>
