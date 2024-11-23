@@ -7,7 +7,7 @@ const Education = () => {
           My Education
         </h2>
         <p className="text-lg text-gray-800 text-center mb-12">
-          A comprehensive overview of my educational journey, detailing my academic achievements, specialized courses, and certifications that reflect my dedication to continuous learning and professional growth.
+          A comprehensive overview of my educational journey&rsquo; detailing my academic achievements&rsquo; specialized courses&rsquo; and certifications that reflect my dedication to continuous learning and professional growth.
         </p>
         {/* Download CV Button */}
         <div className="text-center mb-8">
@@ -31,7 +31,7 @@ const Education = () => {
                 <span className="text-red-900">School:</span> Shah Mardan Shah Boys High School
                 <br />
                 <span>
-                  <span className="text-red-900">Description:</span> Focused on science and mathamatics, building a strong academic foundation.
+                  <span className="text-red-900">Description:</span> Focused on science and mathamatics&rsquo; building a strong academic foundation.
                 </span>
                 <br />
                 <span>
@@ -66,12 +66,12 @@ const Education = () => {
 
             {/* Bachelor's */}
             <div className="p-6 bg-white border-2 border-red-700 rounded-lg shadow-lg hover:shadow-xl transition-all">
-              <h4 className="text-xl font-bold text-gray-900 mb-2">Bachelor's</h4>
+              <h4 className="text-xl font-bold text-gray-900 mb-2">Bachelor&apos;s</h4>
               <p className="text-black">
                 <span className="text-red-900">University:</span> Shah Abdul Latif University
                 <br />
                 <span>
-                  <span className="text-red-900">Description:</span>  Completed a BS in Physics, focusing on theoretical and applied physics, including areas such as quantum mechanics .
+                  <span className="text-red-900">Description:</span>  Completed a BS in Physics&rsquo; focusing on theoretical and applied physics&rsquo; including areas such as quantum mechanics .
                 </span>
                 <br />
                 <span>
@@ -101,7 +101,7 @@ const Education = () => {
                 <span className="text-red-900">Platform:</span> Governer House Sindh
                 <br />
                 <span>
-                  <span className="text-red-900">Description:</span> Gained hands-on experience with Typescript, React, Node.js, and database integration.
+                  <span className="text-red-900">Description:</span> Gained hands-on experience with Typescript&rsquo; React&rsquo; Node.js&rsquo; and database integration.
                 </span>
                 <br />
                 <span>
@@ -124,7 +124,7 @@ const Education = () => {
     <span className="text-red-900">Institution:</span> ABC Language Institute
     <br />
     <span>
-      <span className="text-red-900">Description:</span> Enhanced proficiency in English, focusing on grammar and speaking skills.
+      <span className="text-red-900">Description:</span> Enhanced proficiency in English&rsquo; focusing on grammar and speaking skills.
     </span>
     <br />
     <span className="text-red-900">Category:</span> Language
@@ -193,7 +193,7 @@ const Education = () => {
     <span className="text-red-900">Platform:</span> Microsoft Center
     <br />
     <span>
-      <span className="text-red-900">Description:</span> Enhanced proficiency in English language skills, including grammar, vocabulary, and communication.
+      <span className="text-red-900">Description:</span> Enhanced proficiency in English language skills&rsquo; including grammar&rsquo; vocabulary&rsquo; and communication.
     </span>
     <br />
     <span>
@@ -211,7 +211,7 @@ const Education = () => {
   <p className="text-gray-800">
     <span className="text-red-900">Platform:</span> SimpliLearn | SkillUp online
     <br />
-    <span className="text-red-900">Description:</span> Gained proficiency in TypeScript, learning to write scalable and maintainable code for modern web applications.
+    <span className="text-red-900">Description:</span> Gained proficiency in TypeScript&rsquo; learning to write scalable and maintainable code for modern web applications.
     <br />
     <span className="text-gray-700"><span>Year:</span>: 2024</span>
   </p>

@@ -9,14 +9,14 @@ const Hero = () => {
         {/* Left Side: Text */}
         <div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900"> {/* Changed text color to white for contrast */}
-            Hi, I'm Ahmed Ali
+            Hi&rsquo; I&apos;m Ahmed Ali
           </h1>
           <h2 className="text-4xl md:text-5xl font-bold text-red-900"> {/* Changed text color to white for contrast */}
             Web Developer
           </h2>
            
           <p className="mt-4 text-lg text-black">
-  I am a passionate developer with a strong focus on building modern, responsive, and high-performance web applications. With expertise in both front-end and back-end technologies, I specialize in creating seamless user experiences and robust solutions. My experience spans a wide range of industries, where I have successfully delivered complex projects on time, optimizing both functionality and user engagement.
+  I am a passionate developer with a strong focus on building modern&rsquo; responsive&rsquo; and high-performance web applications. With expertise in both front-end and back-end technologies&rsquo; I specialize in creating seamless user experiences and robust solutions. My experience spans a wide range of industries&rsquo; where I have successfully delivered complex projects on time&rsquo; optimizing both functionality and user engagement.
 </p>
 
 
