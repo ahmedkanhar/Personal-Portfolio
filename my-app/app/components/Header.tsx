@@ -41,9 +41,9 @@ const Header = () => {
   return (
     <header className="bg-red-900 text-white py-4">
       <div className="container mx-auto flex justify-between items-center px-6">
-        {/* Logo or Brand */}
+        {/* Logo  */}
         <div className="text-2xl font-semibold">
-          <Link href="/" className="hover:text-gray-300">Ahmed.</Link>
+          <Link href="/" className="hover:text-gray-300">Ahmed</Link>
         </div>
 
         {/* Mobile menu button */}
