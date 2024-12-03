@@ -80,7 +80,7 @@ const Header = () => {
 
         {/* Search Bar and Button on the Right */}
         <div className="flex items-center space-x-2">
-          <label htmlFor="search" className="text-sm">Search</label>
+          <label htmlFor="search" className="text-sm"></label>
           <div className="relative">
             <input
               type="text"
